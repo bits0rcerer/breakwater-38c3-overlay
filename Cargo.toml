@@ -1,0 +1,10 @@
+[package]
+name = "breakwater-38c3-overlay"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+breakwater-egui-overlay = { git = "https://github.com/bits0rcerer/breakwater.git", branch = "egui" }
+
+[lib]
+crate-type = ["dylib"]
