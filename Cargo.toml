@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-breakwater-egui-overlay = { git = "https://github.com/bits0rcerer/breakwater.git", branch = "egui" }
+breakwater-egui-overlay = { git = "https://github.com/sbernauer/breakwater.git", branch = "chore/bumps"}
 
 [lib]
 crate-type = ["dylib"]
